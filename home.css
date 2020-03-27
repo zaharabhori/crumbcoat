@@ -1,0 +1,65 @@
+html,body{
+  height: 100%;
+  margin: 2.5%;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.homepage{
+  position: relative;
+  height: 110vh;
+  width: 100%
+}
+
+.navbar-default{
+  position: absolute;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.nav li a{
+
+  font-family: 'Great Vibes', cursive;
+  font-size: 42px;
+  color: #a73c8b!important;
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: -1;
+  width: 80%;
+  height: 100%
+
+}
+
+.images{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+
+}
+
+.aboutus{
+  position: relative;
+
+}
+
+.heading{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5vh;
+  font-size: 60px;
+  font-family: 'Great Vibes', cursive;
+  color: #a73c8b!important;
+}
+
+.about-text{
+  position: absolute;
+  top: 25vh;
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  color: #a73c8b!important;
+}
