@@ -8,7 +8,7 @@ body{overflow-x: hidden;}
 
 .homepage{
   position: relative;
-  height: 100%;
+  height: auto;
 
 }
 
