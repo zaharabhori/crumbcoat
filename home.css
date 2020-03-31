@@ -30,15 +30,11 @@ body{overflow-x: hidden;}
 
 .aboutus{
   position: relative;
-  height: 100%;
+  top: 20px;
+  height: auto;
 }
 
-.images img{
 
-  width: 80%;
-  height: 60%;
-  margin-top: 3%;
-}
 
 .logo img{
   width: 80%;
@@ -46,6 +42,9 @@ body{overflow-x: hidden;}
 
 }
 
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
 .heading{
 
   font-size: 60px;
